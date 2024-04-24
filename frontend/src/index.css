@@ -18,3 +18,9 @@ code {
   white-space: nowrap;
   overflow: hidden;
 }
+
+button:disabled {
+  background-color: lightgray !important;
+  color: black !important;
+  border-color: darkgray !important;
+}
